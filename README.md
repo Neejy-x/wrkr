@@ -413,18 +413,6 @@ Contributions are welcome.
 4. Run the relevant checks and verify the service behavior
 5. Open a pull request with a concise explanation of the change
 
-Suggested contribution areas:
-
-- API validation improvements
-- RBAC refinements
-- Kafka event processing
-- Database migration coverage
-- Better docs and examples
-- Test suites for each service
-
-## License
-
-This project does not currently include a license file. If you plan to publish it publicly, add an appropriate Open Source license such as MIT or Apache-2.0 before release.
 
 ---
 
