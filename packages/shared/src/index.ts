@@ -1,0 +1,15 @@
+export { closePool, getPool } from "./db/pool";
+export { AppError } from "./errors/AppError";
+export { errorHandler } from "./errors/errorHandler";
+export { logger } from "./logger/logger";
+export { httpLogger } from "./logger/httpLogger";
+export { successResponse, failResponse } from "./response/response";
+export { validateBody } from "./validation/validateBody";
+export type { JwtPayload, UserRole } from "./auth/types";
+export { createToken, verifyToken } from "./auth/jwt";
+export { requireGatewaySecret } from "./auth/gatewayAuth";
+export { authenticate, isAdmin } from "./middleware/rbac";
+export { TOPICS } from "./kafka/topics";
+export { createKafkaClient } from "./kafka/client";
+export { createConsumer, runConsumer } from "./kafka/consumer";
+export { createProducer, publishJSON, publishJSONSafe } from "./kafka/producer";
